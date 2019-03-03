@@ -21,10 +21,9 @@ type command struct {
 
 var commands = map[string]*command{
 	"node": {
-		desc:    "generate a new node address and private key",
-		example: "orbs-key-generator node",
-		//		handler:         commandGenerateNodeKey,
-		handler:         nil,
+		desc:            "generate a new node address and private key",
+		example:         "orbs-key-generator node",
+		handler:         commandGenerateNodeKey,
 		sort:            0,
 		requiredOptions: nil,
 	},

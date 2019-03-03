@@ -1,3 +1,15 @@
 [submodule "vendor/github.com/orbs-network/orbs-client-sdk-go"]
 	path = vendor/github.com/orbs-network/orbs-client-sdk-go
 	url = https://github.com/orbs-network/orbs-client-sdk-go
+[submodule "vendor/github.com/orbs-network/orbs-spec"]
+	path = vendor/github.com/orbs-network/orbs-spec
+	url = https://github.com/orbs-network/orbs-spec
+[submodule "vendor/github.com/orbs-network/secp256k1-go"]
+	path = vendor/github.com/orbs-network/secp256k1-go
+	url = https://github.com/orbs-network/secp256k1-go
+[submodule "vendor/github.com/pkg/errors"]
+	path = vendor/github.com/pkg/errors
+	url = https://github.com/pkg/errors
+[submodule "vendor/golang.org/x/crypto"]
+	path = vendor/golang.org/x/crypto
+	url = https://go.googlesource.com/crypto
