@@ -7,7 +7,7 @@ Since the keys are sensitive, it is recommended to use these tools in a private 
 
 To install the key generator, use brew
 
-    brew install orbs-key-generator
+    brew install orbs-network/devtools/orbs-key-generator
 
 It is also possible to clone this repository and then run `build.sh`
 
