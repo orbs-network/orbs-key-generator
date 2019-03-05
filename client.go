@@ -11,11 +11,11 @@ func commandGenerateClientKey(requiredOptions []string) {
 	if err != nil {
 		die("Could not create Orbs account.")
 	}
-	clientKey := &jsoncodec.Key{
-		PrivateKey: encoding.EncodeHex(account.PrivateKey),
-		PublicKey:  encoding.EncodeHex(account.PublicKey),
-		Address:    account.Address,
+	clientKey := &jsoncodec.ClientKey{
+		ClientPrivateKey: encoding.EncodeHex(account.PrivateKey),
+		ClientPublicKey:  encoding.EncodeHex(account.PublicKey),
+		ClientAddress:    account.Address,
 	}
-	json, err := jsoncodec.MarshalKey(clientKey)
+	json, err := jsoncodec.MarshalClientKey(clientKey)
 	log("%s", json)
 }

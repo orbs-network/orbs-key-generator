@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-const ORBS_KEY_GENERATOR_VERSION = "0.1.0"
+const ORBS_KEY_GENERATOR_VERSION = "0.1.1"
 
 type command struct {
 	desc            string

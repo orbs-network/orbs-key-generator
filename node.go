@@ -15,11 +15,11 @@ func commandGenerateNodeKey(requiredOptions []string) {
 
 	address := digest.CalcNodeAddressFromPublicKey(keyPair.PublicKey())
 
-	clientKey := &jsoncodec.Key{
-		PrivateKey: encoding.EncodeHex(keyPair.PrivateKey()),
-		PublicKey:  encoding.EncodeHex(keyPair.PublicKey()),
-		Address:    encoding.EncodeHex(address),
+	clientKey := &jsoncodec.NodeKey{
+		NodePrivateKey: encoding.EncodeHex(keyPair.PrivateKey()),
+		NodePublicKey:  encoding.EncodeHex(keyPair.PublicKey()),
+		NodeAddress:    encoding.EncodeHex(address),
 	}
-	json, err := jsoncodec.MarshalKey(clientKey)
+	json, err := jsoncodec.MarshalNodeKey(clientKey)
 	log("%s", json)
 }
