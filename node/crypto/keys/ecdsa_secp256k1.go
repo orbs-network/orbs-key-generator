@@ -4,7 +4,6 @@ import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	cryptorand "crypto/rand"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/orbs-network/crypto-lib-go/crypto/encoding"
 	"github.com/orbs-network/orbs-spec/types/go/primitives"
 	"github.com/orbs-network/secp256k1-go"

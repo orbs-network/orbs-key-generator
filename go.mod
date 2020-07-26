@@ -3,7 +3,6 @@ module github.com/orbs-network/orbs-key-generator
 go 1.14
 
 require (
-	github.com/ethereum/go-ethereum v1.9.6
 	github.com/orbs-network/crypto-lib-go v1.5.0
 	github.com/orbs-network/orbs-client-sdk-go v0.19.0
 	github.com/orbs-network/orbs-spec v0.0.0-20200723152318-9b890cd7cebc
