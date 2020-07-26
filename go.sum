@@ -29,7 +29,6 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/dgryski/go-sip13 v0.0.0-20181026042036-e10d5fee7954/go.mod h1:vAd38F8PWV+bWy6jNmig1y/TA+kYO4g3RSRF0IAv0no=
-github.com/ethereum/go-ethereum v1.9.6 h1:EacwxMGKZezZi+m3in0Tlyk0veDQgnfZ9BjQqHAaQLM=
 github.com/ethereum/go-ethereum v1.9.6/go.mod h1:PwpWDrCLZrV+tfrhqqF6kPknbISMHaJv9Ln3kPCZLwY=
 github.com/fsnotify/fsnotify v1.4.7/go.mod h1:jwhsz4b93w/PPRr/qN1Yymfu8t87LnFCMoQvtojpjFo=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
@@ -61,7 +60,6 @@ github.com/golang/protobuf v1.3.2/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5y
 github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
 github.com/google/btree v1.0.0/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
 github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
-github.com/google/go-cmp v0.3.0 h1:crn/baboCvb5fXaQ0IJ1SGTsTVrWpDsCWC8EGETZijY=
 github.com/google/go-cmp v0.3.0/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMywk6iLU=
 github.com/google/martian v2.1.0+incompatible/go.mod h1:9I4somxYTbIHy5NJKHRl3wXiIaQGbYVAs8BPL6v8lEs=
 github.com/google/pprof v0.0.0-20181206194817-3ea8567a2e57/go.mod h1:zfwlbNMJ+OItoe0UupaVj+oy1omPYYDuagoSzA8v9mc=
@@ -90,11 +88,9 @@ github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+o
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/konsorten/go-windows-terminal-sequences v1.0.2/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515/go.mod h1:+0opPa2QZZtGFBFZlji/RkVcI2GknAs/DXo4wKdlNEc=
-github.com/kr/pretty v0.1.0 h1:L/CwN0zerZDmRFUapSPitk6f+Q3+0za1rQkzVuMiMFI=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/pty v1.1.8/go.mod h1:O1sed60cT9XZ5uDucP5qwvh+TE3NnUj51EiZO/lmSfw=
-github.com/kr/text v0.1.0 h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
 github.com/magiconair/properties v1.8.0/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
 github.com/magiconair/properties v1.8.1/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
@@ -106,11 +102,8 @@ github.com/modern-go/reflect2 v1.0.1/go.mod h1:bx2lNnkwVCuqBIxFjflWJWanXIb3Rllmb
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 github.com/oklog/ulid v1.3.1/go.mod h1:CirwcVhetQ6Lv90oh/F+FBtV6XMibvdAFo93nm5qn4U=
-github.com/orbs-network/crypto-lib-go v1.2.0 h1:ZB+RCD8dPE2di97J5ap/7VX+7yuNNyey5P9p2nSHhvA=
-github.com/orbs-network/crypto-lib-go v1.2.0/go.mod h1:2jw6UQyT53aRh425j7mpxaGDhvfGVCfTqqBj22zULOs=
 github.com/orbs-network/crypto-lib-go v1.5.0 h1:vdQGZr9aJqv772VpavYtsiJAoWJWr3eQNxmj39MJ5pI=
 github.com/orbs-network/crypto-lib-go v1.5.0/go.mod h1:GDUYdstf8AApI9oRLEzOruzk3wwAnA3TruZz3lBvNno=
-github.com/orbs-network/go-mock v0.0.0-20180813130752-890a1ee8d0a1 h1:ezKxeCPNvc27Ri1EQkXfJu6N6i4i38kPuL7BkzcFOUU=
 github.com/orbs-network/go-mock v0.0.0-20180813130752-890a1ee8d0a1/go.mod h1:Hfj5NDPp07PIkGv5y8g1C0zsMXbrVTPQVIvSuHSHyvo=
 github.com/orbs-network/gojay v1.3.0 h1:TDqmmbgwHum9oXq1iexd+J+IUBm4/gtlyoOP5HV8rvw=
 github.com/orbs-network/gojay v1.3.0/go.mod h1:xdSp1mz0+DL+c6OLsbZ5qB/Gtygikcr5NdSsU1GsRC0=
@@ -121,11 +114,6 @@ github.com/orbs-network/lean-helix-go v0.2.7/go.mod h1:9E/1sZEMZvNLHrP+nif36bio2
 github.com/orbs-network/membuffers v0.3.2/go.mod h1:M5ABv0m0XBGoJbX+7UKVY02hLF4XhS2SlZVEVABMc6M=
 github.com/orbs-network/membuffers v0.4.0 h1:tqeCLjdXJX3JIGy2mEMroeE+vG5mWTZx1vpwz7sgQKc=
 github.com/orbs-network/membuffers v0.4.0/go.mod h1:mhOIfhkMQWKhbQbwD2BoIlV9eAA3LwZXMC0+JIrDmCM=
-github.com/orbs-network/orbs-client-sdk-go v0.19.0 h1:wn57urws5Aasqo2I8GtNUhcdAnVCE504lcGhE5bHWwo=
-github.com/orbs-network/orbs-client-sdk-go v0.19.0/go.mod h1:SOTHprewQt/mjVxSBpXnxn8y55t8VIin9fnqMOVIBAQ=
-github.com/orbs-network/orbs-contract-sdk v1.4.0/go.mod h1:N+caPmVwyn3p+kgPwfb43bo4qAcRDoiaq/gw/ag1mHo=
-github.com/orbs-network/orbs-spec v0.0.0-20200312223140-a78d945bab99/go.mod h1:D4+jHMhQ+mPB4uhqZ2wtzuG8RV2JgltWG1FqAwLIaOw=
-github.com/orbs-network/orbs-spec v0.0.0-20200421175506-e30b5e6a19c3/go.mod h1:D4+jHMhQ+mPB4uhqZ2wtzuG8RV2JgltWG1FqAwLIaOw=
 github.com/orbs-network/orbs-spec v0.0.0-20200503073830-babdf6adc845/go.mod h1:D4+jHMhQ+mPB4uhqZ2wtzuG8RV2JgltWG1FqAwLIaOw=
 github.com/orbs-network/orbs-spec v0.0.0-20200723152318-9b890cd7cebc h1:YJXtRSv/Z/pohBapEDPsErrnzk9QahcVXTTiv6HPNZU=
 github.com/orbs-network/orbs-spec v0.0.0-20200723152318-9b890cd7cebc/go.mod h1:D4+jHMhQ+mPB4uhqZ2wtzuG8RV2JgltWG1FqAwLIaOw=
@@ -298,7 +286,6 @@ google.golang.org/grpc v1.21.1/go.mod h1:oYelfM1adQP15Ek0mdvEgi9Df8B9CZIaU1084ij
 google.golang.org/grpc v1.22.0/go.mod h1:Y5yQAOtifL1yxbo5wqy6BxZv8vAUGQwXBOALyacEbxg=
 gopkg.in/alecthomas/kingpin.v2 v2.2.6/go.mod h1:FMv+mEhP44yOT+4EoQTLFTRgOQ1FBLkstjWtayDeSgw=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
-gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 h1:qIbj1fsPNlZgppZ+VLlY7N33q108Sa+fhmuc+sWQYwY=
 gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/errgo.v2 v2.1.0/go.mod h1:hNsd1EY+bozCKY1Ytp96fpM3vjJbqLJn88ws8XvfDNI=
 gopkg.in/resty.v1 v1.12.0/go.mod h1:mDo4pnntr5jdWRML875a/NmxYqAlA73dVijT2AXvQQo=
