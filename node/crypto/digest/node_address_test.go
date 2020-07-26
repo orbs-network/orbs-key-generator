@@ -1,7 +1,7 @@
 package digest
 
 import (
-	"encoding/hex"
+	"github.com/orbs-network/crypto-lib-go/crypto/encoding"
 	"github.com/orbs-network/orbs-spec/types/go/primitives"
 	"github.com/stretchr/testify/require"
 	"testing"
@@ -13,7 +13,7 @@ const (
 )
 
 func TestCalcNodeAddressFromPublicKey(t *testing.T) {
-	publicKey, _ := hex.DecodeString(ExampleNodePublicKey)
+	publicKey, _ := encoding.DecodeHex(ExampleNodePublicKey)
 	nodeAddress := CalcNodeAddressFromPublicKey(primitives.EcdsaSecp256K1PublicKey(publicKey))
 	require.Len(t, nodeAddress, NODE_ADDRESS_SIZE_BYTES, "node len mismatch")
 	require.Equal(t, ExpectedNodeAddress, nodeAddress.String(), "result should match")

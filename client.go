@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/orbs-network/orbs-client-sdk-go/crypto/encoding"
+	"github.com/orbs-network/crypto-lib-go/crypto/encoding"
 	"github.com/orbs-network/orbs-client-sdk-go/orbs"
 	"github.com/orbs-network/orbs-key-generator/jsoncodec"
 )
