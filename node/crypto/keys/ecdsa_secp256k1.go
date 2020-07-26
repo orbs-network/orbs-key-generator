@@ -4,7 +4,7 @@ import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	cryptorand "crypto/rand"
-	"encoding/hex"
+	"github.com/orbs-network/crypto-lib-go/crypto/encoding"
 	"github.com/orbs-network/orbs-spec/types/go/primitives"
 	"github.com/orbs-network/secp256k1-go"
 	"github.com/pkg/errors"
@@ -39,11 +39,11 @@ func (k *EcdsaSecp256K1KeyPair) PrivateKey() primitives.EcdsaSecp256K1PrivateKey
 }
 
 func (k *EcdsaSecp256K1KeyPair) PublicKeyHex() string {
-	return hex.EncodeToString(k.publicKey)
+	return encoding.EncodeHex(k.publicKey)
 }
 
 func (k *EcdsaSecp256K1KeyPair) PrivateKeyHex() string {
-	return hex.EncodeToString(k.privateKey)
+	return encoding.EncodeHex(k.privateKey)
 }
 
 func GenerateEcdsaSecp256K1Key() (*EcdsaSecp256K1KeyPair, error) {
