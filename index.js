@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import yargs from "yargs";
 import { readFileSync } from "fs";
 import { generateNodeKeys, generateOrbsKeys } from "./keys.js";

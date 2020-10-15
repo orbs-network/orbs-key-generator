@@ -5,9 +5,9 @@ Since the keys are sensitive, it is recommended to use these tools in a private 
 
 ## Installing
 
-To install the key generator, use brew
+To install the key generator, use npm
 
-    npm i orbs-key-generator
+    npm i -g orbs-key-generator
 
 It is also possible to clone this repository and then run `build.sh`
 
