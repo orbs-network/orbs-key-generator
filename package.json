@@ -9,7 +9,7 @@
   },
   "bin": {
     "orbs-key-generator": "./index.js"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/orbs-network/orbs-key-generator.git"
