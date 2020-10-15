@@ -23,6 +23,9 @@ To generate a node public and private key, as well as an Orbs node address, run:
 
     orbs-key-generator node
     
+
+Orbs addresses are fully functional Ethereum addresses, used by the Orbs nodes to communicate over the Ethereum network.
+
 ## Testing
 
 ```
