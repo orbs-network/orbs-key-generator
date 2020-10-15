@@ -1,6 +1,6 @@
 {
   "name": "orbs-key-generator",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "This toolkit provides you with a simple way to generate both client key pairs and addresses and node key pairs and addresses.",
   "main": "index.js",
   "type": "module",
