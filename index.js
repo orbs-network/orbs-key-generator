@@ -3,6 +3,8 @@
 import yargs from "yargs";
 import { readFileSync } from "fs";
 import { generateNodeKeys, generateOrbsKeys } from "./keys.js";
+import path from 'path';
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 export function main(argv) {
     yargs(argv)
@@ -15,7 +17,7 @@ export function main(argv) {
             console.log(JSON.stringify(output, 2, 2));
         })
         .command(["version"], "show version", {}, (argv) => {
-            const { version } = JSON.parse(readFileSync("./package.json").toString());
+            const { version } = JSON.parse(readFileSync(`${__dirname}/package.json`).toString());
             console.log(`orbs-key-generator version ${version}`);
         })
         .demandCommand()
