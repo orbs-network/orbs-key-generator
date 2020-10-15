@@ -1,0 +1,24 @@
+{
+  "name": "orbs-key-generator",
+  "version": "2.0.0",
+  "description": "This toolkit provides you with a simple way to generate both client key pairs and addresses and node key pairs and addresses.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbs-network/orbs-key-generator.git"
+  },
+  "author": "Kirill Maksimov <kirill@orbs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orbs-network/orbs-key-generator/issues"
+  },
+  "homepage": "https://github.com/orbs-network/orbs-key-generator#readme",
+  "dependencies": {
+    "orbs-client-sdk": "^2.5.0",
+    "yargs": "^16.0.3"
+  }
+}

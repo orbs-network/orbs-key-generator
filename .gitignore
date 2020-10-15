@@ -73,3 +73,6 @@ fabric.properties
 logs/
 
 _bin/
+
+# Node.js
+node_modules
