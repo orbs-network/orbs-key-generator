@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/orbs-network/orbs-key-generator#readme",
   "dependencies": {
+    "elliptic": "^6.5.3",
+    "js-sha3": "^0.8.0",
     "orbs-client-sdk": "^2.5.0",
     "yargs": "^16.0.3"
   }
