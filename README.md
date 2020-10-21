@@ -3,6 +3,11 @@ This toolkit provides you with a simple way to generate both client key pairs an
 
 Since the keys are sensitive, it is recommended to use these tools in a private place, where the generated output can be safely stored in a secure location.
 
+## Prerequisities
+
+[Node.js](https://nodejs.org/en/) should be installed version 8 or above.
+
+
 ## Installing
 
 To install the key generator, use npm
